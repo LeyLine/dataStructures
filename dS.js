@@ -162,3 +162,15 @@ var student3 = {firstName: 'Lucille', lastName: 'Lozano'};
 
 // schoolSystem.schools[1].classRooms[0].students.push(student3);
 console.log(schoolSystem.schools[2].classRooms[0].students[3].firstName);
+
+function count(){
+var s = [];
+for(var i = 3; i < 14; i++) {
+if (i<13){s.push(i + " then ")}
+else {s.push(i)}
+
+}
+console.log(s);
+}
+
+count();
